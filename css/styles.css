@@ -3,14 +3,6 @@ body{
 	font-weight: 400;
 }
 
-.container-fluid{
-	padding: 3% 15% 7%;
-}
-
-#title{
-	background-color: #ff4c68;
-	color: #fff;
-}
 h1{
 	font-family: 'Montserrat';
 	font-weight: 809;
@@ -24,11 +16,26 @@ h2{
 	font-size: 3rem;
 	line-height: 1.2;
 }
+
 h3{
 	font-size: 1.5rem;
 	font-family: 'Montserrat';
 	font-weight: 700;
 }
+
+p{
+	color: #8f8f8f;
+}
+
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+}
+
 .rotate{
 	width: 64%;
 	transform: rotate(25deg);
@@ -60,9 +67,7 @@ h3{
 
 
 /* features */
-p{
-	color: #8f8f8f;
-}
+
 .features-icon{
 	color: #ef8172;
 	margin-bottom: 15%;
@@ -102,16 +107,11 @@ p{
 	padding-top: 4%;
 	padding-left: 15%;
 }
-.press-logo{
-	width: 15%;
-	margin: 0 20px 20px 15px;
-}
 
 .carousel-item{
 	padding: 5% 15%;
 }
 
-/* Plan  */
 
 #pricing{
 	padding: 80px;
@@ -128,6 +128,11 @@ p{
 	padding: 5% 30%;
 }
 
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+
 .div-footer{
 	text-align: center;
 	padding: 2% 20%;
@@ -141,6 +146,11 @@ p{
 	margin: 5% 4%;
 }
 
+.press-logo{
+	width: 15%;
+	margin: 0px 20px 20px 15px;
+}
+
 @media (max-width: 991px) {
 	.rotate{
 		position: static;
@@ -149,3 +159,10 @@ p{
 		/* transform: rotate(0); */
 	}
 }
+
+
+/* 		div h1{color: red;} 			*/
+/* 		.class #id{color: red;} 		*/
+/* 		div .class{color: red;} 		*/  /*target the element with that class */
+/* 		h1#id{color: red;} 	    	    */
+/* 		.class1.class2{color: red;} 	*/  /*target the elemnt that have two classes like that*/ 
