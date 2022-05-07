@@ -109,3 +109,13 @@ p{
 .carousel-item{
 	padding: 5% 15%;
 }
+
+/* Plan  */
+
+#pricing{
+	padding: 80px;
+	text-align: center;
+}
+.plan-col{
+	padding: 3% 2%;
+}
